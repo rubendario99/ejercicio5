@@ -6,3 +6,9 @@ C:\Users\34698\source\repos\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.Co
 C:\Users\34698\source\repos\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.dll
 C:\Users\34698\source\repos\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.pdb
 C:\Users\34698\source\repos\Ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csprojAssemblyReference.cache
+C:\Users\ruchi\source\repos\ejercicio5\Ejercicio5\bin\Debug\Ejercicio5.dll
+C:\Users\ruchi\source\repos\ejercicio5\Ejercicio5\bin\Debug\Ejercicio5.pdb
+C:\Users\ruchi\source\repos\ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.ValidateTextbox.resources
+C:\Users\ruchi\source\repos\ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.csproj.GenerateResource.cache
+C:\Users\ruchi\source\repos\ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.dll
+C:\Users\ruchi\source\repos\ejercicio5\Ejercicio5\obj\Debug\Ejercicio5.pdb

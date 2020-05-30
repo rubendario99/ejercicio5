@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.btnMultiline = new System.Windows.Forms.Button();
-            this.validateTextbox1 = new Ejercicio5.ValidateTextbox();
             this.btnTexto = new System.Windows.Forms.Button();
+            this.btnTipo = new System.Windows.Forms.Button();
+            this.validateTextbox1 = new Ejercicio5.ValidateTextbox();
             this.SuspendLayout();
             // 
             // btnMultiline
@@ -43,16 +44,6 @@
             this.btnMultiline.UseVisualStyleBackColor = true;
             this.btnMultiline.Click += new System.EventHandler(this.btnMultiline_Click);
             // 
-            // validateTextbox1
-            // 
-            this.validateTextbox1.Location = new System.Drawing.Point(0, 0);
-            this.validateTextbox1.Multilinea = false;
-            this.validateTextbox1.Name = "validateTextbox1";
-            this.validateTextbox1.Size = new System.Drawing.Size(150, 42);
-            this.validateTextbox1.TabIndex = 0;
-            this.validateTextbox1.Texto = "";
-            this.validateTextbox1.Tipo = Ejercicio5.ValidateTextbox.eTipo.Numerico;
-            // 
             // btnTexto
             // 
             this.btnTexto.Location = new System.Drawing.Point(35, 172);
@@ -63,11 +54,33 @@
             this.btnTexto.UseVisualStyleBackColor = true;
             this.btnTexto.Click += new System.EventHandler(this.btnTexto_Click);
             // 
+            // btnTipo
+            // 
+            this.btnTipo.Location = new System.Drawing.Point(368, 134);
+            this.btnTipo.Name = "btnTipo";
+            this.btnTipo.Size = new System.Drawing.Size(75, 23);
+            this.btnTipo.TabIndex = 3;
+            this.btnTipo.Text = "Tipo";
+            this.btnTipo.UseVisualStyleBackColor = true;
+            this.btnTipo.Click += new System.EventHandler(this.btnTipo_Click);
+            // 
+            // validateTextbox1
+            // 
+            this.validateTextbox1.Location = new System.Drawing.Point(322, 69);
+            this.validateTextbox1.Multilinea = false;
+            this.validateTextbox1.Name = "validateTextbox1";
+            this.validateTextbox1.Size = new System.Drawing.Size(150, 42);
+            this.validateTextbox1.TabIndex = 0;
+            this.validateTextbox1.Texto = "";
+            this.validateTextbox1.Tipo = Ejercicio5.ValidateTextbox.eTipo.Textual;
+            this.validateTextbox1.TextChangeInterno += new System.EventHandler(this.validateTextbox1_TextChangeInterno);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnTipo);
             this.Controls.Add(this.btnTexto);
             this.Controls.Add(this.btnMultiline);
             this.Controls.Add(this.validateTextbox1);
@@ -82,6 +95,7 @@
         private Ejercicio5.ValidateTextbox validateTextbox1;
         private System.Windows.Forms.Button btnMultiline;
         private System.Windows.Forms.Button btnTexto;
+        private System.Windows.Forms.Button btnTipo;
     }
 }
 
